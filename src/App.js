@@ -1,3 +1,10 @@
+const Pizza = () => {
+  return React.createElement("div", {}, [
+    React.createElement("h1", {}, "The Pepperoni Pizza"),
+  ]);
+
+}
+
 const App = () => {
   return React.createElement(
     "div",
