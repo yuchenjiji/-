@@ -2,7 +2,7 @@ const App = () => {
   return React.createElement(
     "div",
     {},
-    React.createElement("h1", {}, "Pixel Perfect Pizzas")
+    React.createElement("h1", {}, "Padre Gino's")
   );
 };
 
