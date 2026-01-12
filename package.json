@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yuchenjiji/-/issues"
   },
-  "homepage": "https://github.com/yuchenjiji/-#readme"
+  "homepage": "https://github.com/yuchenjiji/-#readme",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
 }
