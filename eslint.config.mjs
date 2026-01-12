@@ -10,9 +10,7 @@ export default [
         languageOptions: {
             globals: {
                 ...globals.browser,
-                ...globals.node,
-                React: "readonly",
-                ReactDOM: "readonly",
+                ...globals.node,  
             },
             parserOptions: {
                 ecmaFeatures: {
