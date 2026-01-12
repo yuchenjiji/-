@@ -1,7 +1,7 @@
 const Pizza = () => {
   return React.createElement("div", {}, [
-    React.createElement("h1", {}, "The Pepperoni Pizza"),
-    React.createElement("p", {}, "Mozzarella Cheese, Pepperoni"),
+    React.createElement("h1", {}, props.name),
+    React.createElement("p", {}, props.description),
   ]);
 
 }
@@ -12,7 +12,10 @@ const App = () => {
     {},
     [
       React.createElement("h1", {}, "Padre Gino's"),
-      React.createElement(Pizza),
+      React.createElement(Pizza, {
+        name: "Margherita",
+        description: "Classic pizza with tomato sauce, mozzarella, and basil",
+      }),
       React.createElement(Pizza),
       React.createElement(Pizza),
       React.createElement(Pizza),
